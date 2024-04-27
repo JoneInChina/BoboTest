@@ -13,11 +13,12 @@ Pod::Spec.new do |s|
 
   s.description      =  s.summary
 
-  s.homepage         = 'https://github.com/MrZhang4520/BOBOTestModule'
+  s.homepage         = 'https://github.com/JoneInChina/BoboTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MrZhang4520' => 'zhangbo41@guazi.com' }
   s.source           = { :git => 'https://github.com/JoneInChina/BoboTest.git', :tag => s.version.to_s }
+  
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
