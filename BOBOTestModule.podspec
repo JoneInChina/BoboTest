@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BOBOTestModule'
-  s.version          = '0.1.0'
+  s.version          = 'v0.1.0'
   s.summary          = 'BOBOTestModule test'
 
   s.description      =  s.summary
