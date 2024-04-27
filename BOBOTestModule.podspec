@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   s.summary          = 'BOBOTestModule test'
 
   s.description      =  s.summary
-
+  s.license  = 'MIT'
   s.homepage         = 'https://github.com/JoneInChina/BoboTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  #s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MrZhang4520' => 'zhangbo41@guazi.com' }
   s.source           = { :git => 'https://github.com/JoneInChina/BoboTest.git', :tag => s.version.to_s }
   
